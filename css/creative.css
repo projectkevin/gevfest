@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 html,
 body {
     width: 100%;
@@ -471,7 +465,7 @@ fieldset[disabled] .btn-default.active {
     border-color: #fff;
     border-width: thin;
     color: #fff;
-    background-color: #563d7c;
+    background-color: #cccc00;
 }
 
 .btn-primary:active,
