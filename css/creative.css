@@ -78,6 +78,28 @@ aside {
     padding: 0;
 }
 
+.navbar-other-pages {
+  border-color: rgba(34,34,34,.05);
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  background-color: #fff;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  -webkit-font-smoothing: antialiased;
+  transition: all .35s;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  color: #222;
+}
+
+.navbar-other-pages>li>a:focus,.navbar-other-pagesli>a:hover {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #6f5499!important;
+    background-color: transparent;
+}
+
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
@@ -184,7 +206,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url("../img/hero2.png");
+    background-image: url("../img/hero-bg.png");
 }
 
 header .header-content {
@@ -195,7 +217,7 @@ header .header-content {
 }
 
 header .header-content .header-content-inner .the_icon {
-    border: 1px solid #cdbfe3;
+    /*border: 1px solid #cdbfe3;*/
     border-radius: 25px;
     margin: 0 auto 30px;
     width: 144px;
@@ -282,7 +304,20 @@ header .header-content .header-content-right img {
 }
 
 .service-box p {
+  margin-bottom: 0;
+}
+
+.service-box-other p {
     margin-bottom: 0;
+    text-align: left;
+}
+
+.service-box-dark p {
+  margin-bottom: 0;
+  text-align: left;
+}
+.service-box-dark a {
+  color: #cccc00;
 }
 
 .portfolio-box {
